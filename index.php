@@ -3,6 +3,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link href="https://fonts.googleapis.com/css?family=Chakra+Petch|Oxanium|Roboto+Slab|Source+Sans+Pro&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/s/sojember.css">
+<link rel="icon" type="image/png" href="assets/i/soj.png">
 
 </head>
 <body>
