@@ -1,8 +1,8 @@
 <head>
-<title>TB Studio - Next Gen's Vision</title>
+<title>Sukses Olshop Jember</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link href="https://fonts.googleapis.com/css?family=Chakra+Petch|Oxanium|Roboto+Slab|Source+Sans+Pro&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/s/tbstudio.css">
+<link rel="stylesheet" href="assets/s/sojember.css">
 
 </head>
 <body>
@@ -24,5 +24,5 @@
 <div class="footer">
 <?php include('assets/p/footer.html'); ?>
 </div>
-<script src="assets/s/tbstudio.js"></script>
+<script src="assets/s/sojember.js"></script>
 </body>
