@@ -7,19 +7,16 @@
 <link rel="icon" type="image/png" href="assets/i/soj.png">
 
 </head>
-<body class="m-body">
+<body>
 <div class="nav">
-<?php include('assets/m/navbar.html'); ?>
-</div>
-<div class="page" id="page1">
-<?php include('assets/p/page1.html'); ?>
+<?php include('assets/m/navbar-special.html'); ?>
 </div>
 <div class="page" id="page2">
-<?php include('assets/p/page2.html'); ?>
+<?php include('assets/p/item3.html'); ?>
 </div>
-<!-- <div class="page" id="page3"> -->
-<!-- <?php include('assets/p/page3.html'); ?> -->
-<!-- </div> -->
+<div class="page details" id="page2">
+<?php include('assets/p/subitem3.html'); ?>
+</div>
 <div class="page" id="page4"> -->
 <?php include('assets/p/page4.html'); ?>
 </div>
