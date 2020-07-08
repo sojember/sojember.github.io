@@ -281,6 +281,23 @@ h4 a:hover {
     transform: translateX(-50%);
 }
 
+#marks {
+    position: fixed;
+    bottom: -15px;
+    width: 300px;
+    height: 45px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    color: bisque;
+    font-size: 18;
+    text-align: center;
+}
+
+#marks a {
+    color: bisque;
+    font-size: 18;
+}
+
 .team-container {
     height: 380px;
     padding-top: 20px;
@@ -586,6 +603,23 @@ h4 a:hover {
 
     .team-container h3, .team-container h4 {
         line-height: 1;
+    }
+
+    #marks {
+        position: fixed;
+        bottom: -25px;
+        width: 300px;
+        height: 45px;
+        margin-left: 50%;
+        transform: translateX(-50%);
+        color: bisque;
+        font-size: 14;
+        text-align: center;
+    }
+
+    #marks a {
+        color: bisque;
+        font-size: 14;
     }
 
   }

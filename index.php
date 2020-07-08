@@ -20,7 +20,7 @@
 <!-- <div class="page" id="page3"> -->
 <!-- <?php include('assets/p/page3.html'); ?> -->
 <!-- </div> -->
-<div class="page" id="page4"> -->
+<div class="page" id="page4">
 <?php include('assets/p/page4.html'); ?>
 </div>
 <div id="page-product"></div>
