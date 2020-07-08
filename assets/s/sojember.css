@@ -18,6 +18,7 @@ html {
 html body {
     margin: 0;
     overflow-x: hidden;
+    background: rgb(37, 37, 37);
 }
 
 .m-body {
@@ -53,6 +54,10 @@ h4 a:hover {
 }
 
 #page4 {
+    margin-bottom: 314px;
+}
+
+.last-page {
     margin-bottom: 314px;
 }
 
@@ -340,14 +345,14 @@ h4 a:hover {
     width: 50%;
     margin-left: 50%;
     transform: translateX(-50%);
-    margin-top: 114%;
+    margin-top: 300%;
 }
 
 .arrow-right {
     width: 50%;
     margin-left: 50%;
     transform: translateX(-50%) rotate(180deg);
-    margin-top: 114%;
+    margin-top: 300%;
 }
 
 .carousel-container {
@@ -355,6 +360,41 @@ h4 a:hover {
     height: 600px;
     margin-left: 50%;
     transform: translateX(-50%);
+}
+
+.item img:hover {
+    cursor: pointer;
+}
+
+.carousel-bt-left {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -80px;
+    width: 15%;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+    background-color: rgba(0,0,0,0);
+    filter: alpha(opacity=50);
+    opacity: .5;
+}
+
+.carousel-bt-right {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: auto;
+    right: -80;
+    width: 15%;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+    background-color: rgba(0,0,0,0);
+    filter: alpha(opacity=50);
+    opacity: .5;
 }
 
 /* Use a media query to add a breakpoint at 800px: */
@@ -423,6 +463,57 @@ h4 a:hover {
         width: 93%;
     } */
 
+    .carousel-inner {
+        margin-left: 50%;
+        transform: translateX(-50%);
+        width: 72%;
+    }
+
+    .carousel-bt-left {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        width: 15%;
+        font-size: 20px;
+        color: #fff;
+        text-align: center;
+        text-shadow: 0 1px 2px rgba(0,0,0,.6);
+        background-color: rgba(0,0,0,0);
+        filter: alpha(opacity=50);
+        opacity: .5;
+    }
+    
+    .carousel-bt-right {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: auto;
+        right: 0;
+        width: 15%;
+        font-size: 20px;
+        color: #fff;
+        text-align: center;
+        text-shadow: 0 1px 2px rgba(0,0,0,.6);
+        background-color: rgba(0,0,0,0);
+        filter: alpha(opacity=50);
+        opacity: .5;
+    }
+
+    .arrow-left {
+        width: 50%;
+        margin-left: 50%;
+        transform: translateX(-50%);
+        margin-top: 210%;
+    }
+    
+    .arrow-right {
+        width: 50%;
+        margin-left: 50%;
+        transform: translateX(-50%) rotate(180deg);
+        margin-top: 210%;
+    }
+
     .page-80div3 {
         float: left;
         width: calc((100% / 2) - 4%);
@@ -433,6 +524,10 @@ h4 a:hover {
 
     #page4 {
         height: 920px;
+        margin-bottom: 1000px;
+    }
+
+    .last-page {
         margin-bottom: 1000px;
     }
 
@@ -492,6 +587,7 @@ h4 a:hover {
     .team-container h3, .team-container h4 {
         line-height: 1;
     }
+
   }
 
 /* Use a media query to add a breakpoint at 555px: */
@@ -561,6 +657,57 @@ h4 a:hover {
         width: 93%;
     }
 
+    .carousel-inner {
+        margin-left: 50%;
+        transform: translateX(-50%);
+        width: 72%;
+    }
+
+    .carousel-bt-left {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        width: 15%;
+        font-size: 20px;
+        color: #fff;
+        text-align: center;
+        text-shadow: 0 1px 2px rgba(0,0,0,.6);
+        background-color: rgba(0,0,0,0);
+        filter: alpha(opacity=50);
+        opacity: .5;
+    }
+    
+    .carousel-bt-right {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: auto;
+        right: 0;
+        width: 15%;
+        font-size: 20px;
+        color: #fff;
+        text-align: center;
+        text-shadow: 0 1px 2px rgba(0,0,0,.6);
+        background-color: rgba(0,0,0,0);
+        filter: alpha(opacity=50);
+        opacity: .5;
+    }
+
+    .arrow-left {
+        width: 50%;
+        margin-left: 50%;
+        transform: translateX(-50%);
+        margin-top: 220%;
+    }
+    
+    .arrow-right {
+        width: 50%;
+        margin-left: 50%;
+        transform: translateX(-50%) rotate(180deg);
+        margin-top: 220%;
+    }
+
     .page-80div3 {
         float: left;
         width: calc((100% / 2) - 4%);
@@ -571,6 +718,10 @@ h4 a:hover {
 
     #page4 {
         height: 685px;
+        margin-bottom: 1000px;
+    }
+
+    .last-page {
         margin-bottom: 1000px;
     }
 
@@ -661,6 +812,26 @@ h4 a:hover {
 
     .details {
         overflow: auto;
+    }
+
+    #page-product {
+        height: 400px !important;
+    }
+
+    .detail-terasi {
+        height: 480px;
+    }
+
+    .detail-cabe {
+        height: 480px;
+    }
+
+    .detail-masker {
+        height: 900px !important;
+    }
+
+    .detail-wayang {
+        height: 700px;
     }
 
 }

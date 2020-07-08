@@ -23,6 +23,8 @@
 <div class="page" id="page4"> -->
 <?php include('assets/p/page4.html'); ?>
 </div>
+<div id="page-product"></div>
+<div id="page-detail"></div>
 <div class="footer">
 <?php include('assets/m/footer.html'); ?>
 </div>
